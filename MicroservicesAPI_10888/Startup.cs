@@ -33,6 +33,7 @@ namespace MicroservicesAPI_10888
             services.AddDbContext<ProductContext>(o =>
                 o.UseSqlServer(Configuration.GetConnectionString("ProductDB")));
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
             // services.AddControllers();
             services.AddSwaggerGen(c =>
             {

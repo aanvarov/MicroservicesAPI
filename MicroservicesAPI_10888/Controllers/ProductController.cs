@@ -30,7 +30,7 @@ namespace MicroservicesAPI_10888.Controllers
             //return new string[] { "value1", "value2" };
         }
         // GET: api/Product/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetProduct")]
         public IActionResult Get(int id)
         {
             var product = _productRepository.GetProductById(id);

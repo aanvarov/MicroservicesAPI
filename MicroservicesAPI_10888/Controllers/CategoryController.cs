@@ -29,7 +29,7 @@ namespace MicroservicesAPI_10888.Controllers
         }
 
         // GET: api/Category/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetCategory")]
         public IActionResult Get(int id)
         {
             var category = _categoryRepository.GetCategoryById(id);

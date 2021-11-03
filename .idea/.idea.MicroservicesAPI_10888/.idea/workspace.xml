@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75fa9139-ebf0-4fbe-8c30-65b71015dc6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicesAPI_10888/MicroservicesAPI_10888.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicesAPI_10888/MicroservicesAPI_10888.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20PE3n1WgrXyt5XPFyBK4MxKFGz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635937634911</updated>
-      <workItem from="1635937634918" duration="1671000" />
+      <workItem from="1635937634918" duration="3944000" />
     </task>
     <servers />
   </component>

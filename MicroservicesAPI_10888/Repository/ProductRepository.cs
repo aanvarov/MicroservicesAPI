@@ -36,13 +36,13 @@ namespace MicroservicesAPI_10888.Repository
         public Product GetProductById(int id)
         {
             var prod = _dbContext.Products.Find(id);
-            _dbContext.Entry(prod).Reference(s => s.Category).Load();
+            _dbContext.Entry(prod).Reference(s => s.ProductCategory).Load();
             return prod;
         }
 
         public IEnumerable<Product> GetProducts()
         {
-            return _dbContext.Products.Include(s => s.Category).ToList();
+            return _dbContext.Products.Include(s => s.ProductCategory).ToList();
         }
         public void Save()
         {

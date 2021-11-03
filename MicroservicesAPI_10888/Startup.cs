@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MicroservicesAPI_10888.DBContexts;
+using MicroservicesAPI_10888.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,7 +32,8 @@ namespace MicroservicesAPI_10888
             services.AddMvc();
             services.AddDbContext<ProductContext>(o =>
                 o.UseSqlServer(Configuration.GetConnectionString("ProductDB")));
-            services.AddControllers();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            // services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "MicroservicesAPI_10888", Version = "v1"});

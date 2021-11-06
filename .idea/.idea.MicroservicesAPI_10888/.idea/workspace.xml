@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75fa9139-ebf0-4fbe-8c30-65b71015dc6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroservicesAPI_10888/MicroservicesAPI_10888.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicesAPI_10888/MicroservicesAPI_10888.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MicroservicesAPI_10888">
+  <component name="RunManager" selected="Publish to folder.Publish MicroservicesAPI_10888 to folder">
     <configuration name="MicroservicesAPI_10888" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MicroservicesAPI_10888/MicroservicesAPI_10888.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -72,7 +71,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635937634911</updated>
-      <workItem from="1635937634918" duration="3944000" />
+      <workItem from="1635937634918" duration="5844000" />
+      <workItem from="1635944080289" duration="9183000" />
+      <workItem from="1635967252242" duration="6289000" />
+      <workItem from="1636023014563" duration="6073000" />
+      <workItem from="1636045812019" duration="6243000" />
+      <workItem from="1636071327828" duration="147000" />
+      <workItem from="1636109319691" duration="1582000" />
+      <workItem from="1636150499542" duration="7577000" />
     </task>
     <servers />
   </component>
@@ -89,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

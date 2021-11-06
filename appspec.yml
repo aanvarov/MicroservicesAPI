@@ -3,10 +3,3 @@ os: linux
 files: 
   - source: /
     destination: /var/www/html/MicroservicesAPI
-hooks:
-  ApplicationStart:
-    - location: scripts/start_server
-      timeout: 300
-  ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 300

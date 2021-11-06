@@ -9,10 +9,10 @@ hooks:
 #      timeout: 300
 #      runas: root
   ApplicationStart:
-    - location: scripts/start_server.sh
+    - location: /var/www/html/MicroservicesAPI/scripts/start_server.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: scripts/stop_server.sh
+    - location: /var/www/html/MicroservicesAPI/scripts/stop_server.sh
       timeout: 300
       runas: root

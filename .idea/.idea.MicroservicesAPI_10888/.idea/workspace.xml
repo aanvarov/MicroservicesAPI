@@ -5,7 +5,9 @@
     <projectFile profileName="MicroservicesAPI_10888">MicroservicesAPI_10888/MicroservicesAPI_10888.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75fa9139-ebf0-4fbe-8c30-65b71015dc6e" name="Changes" comment="" />
+    <list default="true" id="75fa9139-ebf0-4fbe-8c30-65b71015dc6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroservicesAPI_10888/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <workItem from="1636071327828" duration="147000" />
       <workItem from="1636109319691" duration="1582000" />
       <workItem from="1636150499542" duration="7577000" />
-      <workItem from="1636205597127" duration="23914000" />
+      <workItem from="1636205597127" duration="24953000" />
     </task>
     <servers />
   </component>

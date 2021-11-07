@@ -6,6 +6,7 @@ namespace MicroservicesAPI_10888.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
+        public int ProductCategoryId { get; set; }
         public Category ProductCategory { get; set; }
     }
 }

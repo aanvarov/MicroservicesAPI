@@ -43,6 +43,8 @@ namespace MicroservicesAPI_10888.Repository
         public IEnumerable<Product> GetProducts()
         {
             return _dbContext.Products.Include(s => s.ProductCategory).ToList();
+            // return _dbContext.Products.ToList();
+
         }
         public void Save()
         {

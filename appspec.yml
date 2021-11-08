@@ -8,10 +8,10 @@ files:
 hooks:
   ApplicationStop:
     - location: deployscripts/application_stop.sh
-      timeout: 10
+      timeout: 300
   BeforeInstall:
     - location: deployscripts/before-install.sh
-      timeout: 10
+      timeout: 300
   ApplicationStart:
     - location: deployscripts/application_start.sh
-      timeout: 10
+      timeout: 300
